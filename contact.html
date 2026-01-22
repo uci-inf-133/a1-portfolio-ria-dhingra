@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Ria Dhingra
+EMAIL: dhingrr1@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Your name here">
+  <meta name="description" content="description of your page">
+   <!-- you would link to an external stylesheet here! -->
+    <link rel="stylesheet" href="style.css">
+   <!-- you would also link to Bootstrap here! -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>Contact Ria</title>
+</head>
+<body>
+    <nav class="navbar">
+
+
+      <a href="index.html" class="nav-name">Ria Dhingra</a>
+
+    <div class="nav-links">
+      <a href="projects.html" class="nav-name">Projects</a>
+      <a href="resume.html" class="nav-name">Resume</a>
+      <a href="contact.html" class="nav-name">Contact</a>
+    </div>
+  </nav>
+
+  <main class="contact-page">
+    <section class="contact-layout">
+      <div class="contact-left">
+        <h1 class="contact-title">Contact Me!</h1>
+        <p class="contact-message">
+          Have any questions? Feel free to fill out the form or send me an email and I'll get back to you soon!
+        </p>
+
+        <a class="contact-email" href="mailto:dhingrr1@uci.edu">
+          dhingrr1@uci.edu
+        </a>
+      </div>
+
+      <div class="contact-right">
+        <form class="contact-form">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name (required)</label>
+              <input id="first-name" type="text" required>
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Last Name (required)</label>
+              <input id="last-name" type="text" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" required>
+          </div>
+
+          <div class="form-group">
+            <fieldset class="checkbox-group">
+              <legend>Which are you? (required)</legend>
+              <div class="checkbox-item">
+                <input type="checkbox" id="student" name="role" value="student">
+                <label for="student">Student</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="recruiter" name="role" value="recruiter">
+                <label for="recruiter">Company/ Company Recruiter</label>
+              </div>
+
+              <div class="checkbox-item">
+                <input type="checkbox" id="other" name="role" value="other">
+                <label for="other">Other</label>
+              </div>
+
+            </fieldset> 
+        </div>
+
+          <div class="form-group">
+            <label for="message">Message (required)</label>
+            <textarea id="message" rows="6" required></textarea>
+          </div>
+
+          <button class="contact-button" type="submit">Send Message</button>
+        </form>
+      </div>
+
+    </section>
+  </main>
+  
+
+  <p>
+    <a href="http://validator.w3.org/check?uri=referer">
+       W3C validator
+    </a>
+  </p>
+</body>
+</html>
